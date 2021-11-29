@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bioconductor</title>
+    <link>/</link>
+    <description>Recent content on Bioconductor</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 16 Oct 2020 18:52:14 -0400</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My First Post</title>
+      <link>/posts/my-first-post/</link>
+      <pubDate>Fri, 16 Oct 2020 18:52:14 -0400</pubDate>
+      
+      <guid>/posts/my-first-post/</guid>
+      <description>test test</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/workshops-status/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/workshops-status/</guid>
+      <description>Workshops    Workshop Source  Docker  Status     Interfacing Bioconductor with tidyverse with tidySingleCellExperiment and tidySummarisedExperiment       Dimension Reduction for Beginners       Multi-omic Integration of cBioPortal and TCGA data with MultiAssayExperiment       Effectively using the DelayedArray framework to support the analysis of large datasets       Introduction to Bioconductor annotation resources       Reproducing a single-cell proteomics data analysis using QFeatures and scp       Trajectory inference across conditions: differential expression and differential progression       systemPipe: Workflow and Visualization Toolkit       Building Carpentries-based Bioconductor Lessons       Epidemiology for Bioinformaticians       Introduction to the Terra/AnVIL Cloud-based Genomics Platform         Find out more details on the Workshops page!</description>
+    </item>
+    
+    <item>
+      <title>Code of conduct</title>
+      <link>/code/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/code/</guid>
+      <description>This code of conduct was developed for the EuroBioC2022 conference. For more details, see the Bioconductor Code of Conduct
+Social media policy Images and content from talks, workshops, and posters may be shared publicly through social media (Twitter, etc.). Videos will be released on the Youtube Bioconductor channel. Please, inform the organizing committee as soon as possible if you don&amp;rsquo;t wish your presentation material to be shared. The Bioconductor conference aims to provide a supportive, collegial, and harassment-free environment Bioconductor is dedicated to providing a supportive, collegial, and harassment-free conference experience for everyone, regardless of:</description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/contact/</guid>
+      <description>We are here to help you Members of organizing committees Bold highlights leaders of the committees</description>
+    </item>
+    
+    <item>
+      <title>Organizers</title>
+      <link>/organizers/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/organizers/</guid>
+      <description>Coming soon </description>
+    </item>
+    
+    <item>
+      <title>Past Conferences</title>
+      <link>/conferences/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/conferences/</guid>
+      <description> EuroBioC 2020 BioC Asia 2020 Bioconductor 2020 Bioconductor 2019 Bioconductor 2018 Bioconductor 2017 Bioconductor 2016 Bioconductor 2015 Bioconductor 2014 Bioconductor 2013 Bioconductor 2012 Bioconductor 2011 Bioconductor 2010 Bioconductor 2009 Bioconductor 2008 Bioconductor 2007 Bioconductor 2006 Bioconductor 2005  </description>
+    </item>
+    
+    <item>
+      <title>Registration</title>
+      <link>/registration/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/registration/</guid>
+      <description>Coming soon </description>
+    </item>
+    
+    <item>
+      <title>Schedule</title>
+      <link>/schedule/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/schedule/</guid>
+      <description>Coming soon  -- </description>
+    </item>
+    
+    <item>
+      <title>Schedule</title>
+      <link>/schedule_iframe/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/schedule_iframe/</guid>
+      <description>  </description>
+    </item>
+    
+    <item>
+      <title>Sponsors</title>
+      <link>/sponsors/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/sponsors/</guid>
+      <description>Coming soon   Sponsor Opportunities  Interested in sponsoring this conference? Please contact workshop@bioconductor.org
+ Your sponsorship will help increase diversity and representation at Bioconductor 2021 by:
+ Keeping registration costs affordable for academic participants and trainees. Provide high quality hybrid/virtual programming and post-production and sharing of videos and conference materials Funding travel scholarships for students and postdoctoral fellows. Providing caregiver awards to assist in childcare or eldercare costs Offering student diversity scholarships to increase participation of underrepresented minorities  Three levels of sponsorship are available.</description>
+    </item>
+    
+    <item>
+      <title>Submissions</title>
+      <link>/submissions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/submissions/</guid>
+      <description>Coming soon Submission types Short talk 10-15 min talk, focused on a package, an application note, or a current research presentation. Presentations seeking collaboration or input from the community are encouraged.
+Software demo (&amp;ldquo;short workshop&amp;rdquo;) 30-45 min demonstration of a software package or workflow.
+Long workshop 1.5 - 2 hour interactive workshop, where participants will be expected to have the time and opportunity to follow along and perform analysis themselves.</description>
+    </item>
+    
+  </channel>
+</rss>
