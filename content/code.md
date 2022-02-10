@@ -83,7 +83,10 @@ For Code of Conduct in other languages, see [bioc_coc_multilingual](https://kevi
 * Anonymous Code of Conduct violation reports: [https://tinyurl.com/bioccomplaint](https://tinyurl.com/bioccomplaint)
 * Law enforcement emergency number: 112
 
-### Code of Conduct Committee
+### Updates to the Code of Conducts
+[The Bioconductor Code of Conduct Committee](https://bioconductor.github.io/bioc_coc_multilingual/index.html) provide the most recent version of the Code of Conduct and translations in several languages. 
+
+### Code of Conduct Bioc2022 Conference Committee
 
 |       |   |     |   |      |
 |-------|---|-----|---|------|
