@@ -2,10 +2,10 @@
 title = "Sponsors"
 description = "Sponsors"
 +++
-
+<!--
 ## Coming soon
 
-<!--
+
 # Platinum
 
 |       |
@@ -130,9 +130,12 @@ description = "Sponsors"
 &nbsp;
 
 ## Sponsor Opportunities
+Bioconductor is a non-profit organization that supports one of the most widely used data analysis tools in genomics. Bioconductor was downloaded by [890,462 downloads (distinct IPs)](http://www.bioconductor.org/packages/stats/bioc/index.html) in 2021. Software packages are contributed by more than 1,200 community developers worldwide, totaling over half-million downloads per year.  
 
-> Interested in sponsoring this conference? <br> 
-Please contact <workshop@bioconductor.org>
+The conference is unique in that in addition to talks and poster session, the meeting features 20+ workshops which provide hands-on learning in Bioconductor.  All conference materials (videos, slides, talks, posters, workshops) are published online such that the conference provides a rich resource for learning Bioconductor. 
+
+
+> Interested in sponsoring this conference? Please contact <sponsorship@bioconductor.org>
 
 **Your sponsorship will help increase diversity and representation at Bioconductor 2021** by:
 
@@ -174,7 +177,7 @@ Three levels of sponsorship are available. Sponsors of all levels may present a 
 
 ## Approximate conference demographics
 
-- 150+ participants from the global bioinformatics community. Bioc2020 was virtual and had 500 participants.
+- Bioc2021 was virtual and was attended by 500+ participants from the global Bioconductor bioinformatics community. 
 
 - Academic (50%), corporate (e.g., pharmaceutical; 30%);
   not-for-profit (e.g., Cancer Center; 15%), and government (5%)
@@ -186,8 +189,8 @@ Three levels of sponsorship are available. Sponsors of all levels may present a 
 - PhD (60%), MS (20%), and other degrees.
 
 - Thought leaders contributing to leading-edge methodological
-  development, hands-on practitioners incorporating _R_ /
-  
-  _Bioconductor_ into robust work flows, and researchers developing
+  development, hands-on practitioners incorporating _R_ / _Bioconductor_ into robust work flows, and researchers developing
   bespoke solutions.
+  
+-  Bioconductor is dedicated to providing a supportive, collegial, and harassment-free conference experience for everyone and this is detailed in our conference [code of conduct](https://bioc2022.bioconductor.org/code/). 
  
