@@ -1,3 +1,5 @@
 [build.environment]
   HUGO_VERSION = "0.76.5"
 
+[context.deploy-preview]
+  command = "hugo --buildFuture"
