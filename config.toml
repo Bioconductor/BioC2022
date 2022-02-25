@@ -24,6 +24,12 @@ paginate = 50
     weight = 1
 
 [[menu.main]]
+    identifier = "NEWS"
+    name = "NEWS"
+    url = "/news/"
+    weight = 1.5
+
+[[menu.main]]
     identifier = "sponsors"
     name = "Sponsors"
     url  = "/sponsors/"
