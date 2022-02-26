@@ -1,6 +1,6 @@
 # Bioconductor conference template web site
 
-This repository contains material for the Bioconductor annual conference. View example at https://bioc2021.bioconductor.org/ and the corresponding [GitHub repo](https://github.com/Bioconductor/BioC2020)
+This repository contains material for the Bioconductor annual conference. View example at https://bioc2022.bioconductor.org/ and the corresponding [GitHub repo](https://github.com/Bioconductor/BioC2022)
 
 1. Make sure [Hugo is installed](https://gohugo.io/getting-started/installing/). Check hugo version
 
