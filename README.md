@@ -29,8 +29,6 @@ Created using modified [hugo-universal-theme](https://github.com/devcows/hugo-un
 
 # ToDo/Help wanted
 
-- Make partials for current news. Currently, they are added directly to `layouts/index.html`
-
 - Make schedule as a partial, populated from `config.toml`. Example - [hugo-conference](https://themes.gohugo.io/hugo-conference/) theme.
 
 ## New template
