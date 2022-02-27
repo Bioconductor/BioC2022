@@ -11,8 +11,8 @@ hugo version
 2. Clone the repository and switch to it
 
 ```shell
-git clone https://github.com/mdozmorov/conference_template.git
-cd conference_template/
+git clone git@github.com:Bioconductor/BioC2022.git
+cd BioC2022/
 ```
 
 3. Run hugo
