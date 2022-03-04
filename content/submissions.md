@@ -7,6 +7,13 @@ description = "Submissions"
 
 [Access the BioC2021 Conference submission portal at https://openreview.net/group?id=bioconductor.org/BioC/2022/Conference](https://openreview.net/group?id=bioconductor.org/BioC/2022/Conference)
 
+**Important Dates**
+* January 22, 2022: Call for abstracts opens
+* March 9, 2022: Call for abstracts closes
+* Registration will open soon
+* April 16, 2022: Notification of decision
+* July 27-29, 2022: The BioC2022 conference
+
 <!--* January 22, 2021: Call for abstracts opens
 * New! Deadline extended to March 16, 2021: Abstract submission closes
 * Abstract submission is now closed. All submissions are currently under review.
