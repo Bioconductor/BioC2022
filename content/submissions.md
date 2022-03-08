@@ -9,9 +9,9 @@ description = "Submissions"
 
 **Important Dates**
 * January 22, 2022: Call for abstracts opens
-* March 9, 2022: Call for abstracts closes
+* *March 29, 2022: Call for abstracts closes at 11:59 pm Pacific time* 
 * Registration will open soon
-* April 16, 2022: Notification of decision
+* April 29, 2022: Notification of decision
 * July 27-29, 2022: The BioC2022 conference
 
 <!--* January 22, 2021: Call for abstracts opens
