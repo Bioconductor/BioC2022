@@ -5,7 +5,7 @@ description = "Submissions"
 
 ## Submission is open
 
-[Access the BioC2021 Conference submission portal at https://openreview.net/group?id=bioconductor.org/BioC/2022/Conference](https://openreview.net/group?id=bioconductor.org/BioC/2022/Conference)
+**[Access the BioC2022 Conference submission portal](https://openreview.net/group?id=bioconductor.org/BioC/2022/Conference)**
 
 **Important Dates**
 * January 22, 2022: Call for abstracts opens
