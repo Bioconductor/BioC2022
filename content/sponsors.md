@@ -5,6 +5,20 @@ description = "Sponsors"
 
 |       |
 |:-----:|
+| **Moderna Therapeutics** |
+| ![](../img/clients/moderna-therapeutics-logo_resized.png) |
+| **https://www.modernatx.com/** |
+&nbsp;
+
+|       |
+|:-----:|
+| **Microsoft** |
+| ![](../img/clients/Microsoft_resized.jpg) |
+| **https://www.microsoft.com/genomics/** |
+&nbsp;
+
+|       |
+|:-----:|
 | **StickerMule** |
 | ![](../img/clients/StickerMule_resized.png) |
 | **https://mule.to/p2oj** |
@@ -15,13 +29,6 @@ description = "Sponsors"
 
 
 # Platinum
-
-|       |
-|:-----:|
-| **Moderna Therapeutics** |
-| ![](../img/clients/moderna-therapeutics-logo_resized.png) |
-| **https://www.modernatx.com/** |
-&nbsp;
 
 |       |
 |:-----:|
@@ -62,13 +69,6 @@ description = "Sponsors"
 | **Maze Therapeutics** |
 | ![](../img/clients/Maze_Logo_Navy-04_resized.png) |
 | **https://mazetx.com/** |
-&nbsp;
-
-|       |
-|:-----:|
-| **Microsoft** |
-| ![](../img/clients/Microsoft_resized.jpg) |
-| **https://www.microsoft.com/genomics/** |
 &nbsp;
 
 |       |
