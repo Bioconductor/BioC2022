@@ -1,11 +1,11 @@
 <div class="container-fluid">
   <div class="row">
     {{ range .Site.Data.organizers.committee}}
-    <div class="col-md-2 text-center">
+    <div class="col-xs-6 col-sm-4 col-md-3 col-lg-3 text-center">
       <div class="panel panel-default">
         <div class="panel-body">
-          <img src="{{.image}}" class="center-block"> 
-          {{.name}} 
+          <img src="{{.image}}" class="img-responsive center-block"> 
+          {{.name}}
         </div>
       </div>
     </div>
