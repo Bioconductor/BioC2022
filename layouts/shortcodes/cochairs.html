@@ -1,11 +1,11 @@
 <div class="container">
   <div class="row">
     {{ range .Site.Data.organizers.cochairs}}
-    <div class="col-md-2">
+    <div class="col-md-2 text-center">
       <div class="panel panel-default">
         <div class="panel-body"> 
-          <img src="{{.image}}"> 
-          <center> <a href = "mailto:{{.email}}"> {{.name}} </a> </center>
+          <img src="{{.image}}" class="center-block"> 
+          <a href = "mailto:{{.email}}"> {{.name}} </a>
         </div>
       </div>
     </div>
