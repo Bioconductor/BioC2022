@@ -3,7 +3,7 @@ title = "Code of conduct"
 description = "Code of conduct"
 +++
 
-This code of conduct was developed for the EuroBioC2022 conference. For more details, see the [Bioconductor Code of Conduct](https://www.bioconductor.org/about/code-of-conduct/)
+This code of conduct was developed for the BioC2022 conference. For more details, see the [Bioconductor Code of Conduct](https://www.bioconductor.org/about/code-of-conduct/)
 <!-- The original Code of Conduct is copy-pasted and quoted below -->
 
 ## Social media policy
