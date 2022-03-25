@@ -90,5 +90,5 @@ For Code of Conduct in other languages, see [bioc_coc_multilingual](https://kevi
 
 |       |   |     |   |      |
 |-------|---|-----|---|------|
-| ![](../img/organizers/Aedin.jpg) | &nbsp; | ![](../img/organizers/LeviWaldron.jpg) | &nbsp; | ![](../img/organizers/LaurentGatto.jpg) |
+| ![](../img/organizers/Aedin.jpg) | &nbsp; | ![](../img/organizers/LeviWaldron.jpg) | &nbsp; | ![](../img/organizers/LaurentGatto.png) |
 | [Aedin Culhane](mailto:aedin@jimmy.harvard.edu?subject=BioC2019%20code-of-conduct) | &nbsp;  | [Levi Waldron](mailto:lwaldron.research@gmail.com?subject=BioC2019%20Code-of-conduct) | &nbsp; | [Laurent Gatto](mailto:laurent.gatto@uclouvain.be?subject=BioC2019%20Code-of-conduct) |
