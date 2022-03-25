@@ -3,7 +3,14 @@ title = "Organizers"
 description = "Organizers"
 +++
 
-## Coming soon
+## Co-chairs
+
+{{< cochairs >}}
+
+## Organizer Comittee
+
+{{< committee >}}
+
 
 <!--
 ## Co-chairs
