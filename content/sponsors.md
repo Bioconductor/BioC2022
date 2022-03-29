@@ -24,6 +24,14 @@ description = "Sponsors"
 | **https://mule.to/p2oj** |
 &nbsp;
 
+|       |
+|:-----:|
+| **Tercen Data Analytics Ltd.** |
+| ![](../img/clients/Tercen_weblogo4_resized.png) |
+| **https://www.tercen.com/** |
+
+&nbsp;
+
 <!--
 ## Coming soon
 
