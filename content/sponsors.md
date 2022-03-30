@@ -3,6 +3,9 @@ title = "Sponsors"
 description = "Sponsors"
 +++
 
+{{< sponsors >}}
+
+<!--
 |       |
 |:-----:|
 | **Moderna Therapeutics** |
@@ -32,7 +35,7 @@ description = "Sponsors"
 
 &nbsp;
 
-<!--
+
 ## Coming soon
 
 
