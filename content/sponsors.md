@@ -156,7 +156,7 @@ The conference is unique in that in addition to talks and poster session, the me
 
 > Interested in sponsoring this conference? Please contact <sponsorship@bioconductor.org>
 
-**Your sponsorship will help increase diversity and representation at Bioconductor 2021** by:
+**Your sponsorship will help increase diversity and representation at Bioconductor 2022** by:
 
 - Keeping registration costs affordable for academic participants and trainees.  
 - Provide high quality hybrid/virtual programming and post-production and sharing of videos and conference materials
