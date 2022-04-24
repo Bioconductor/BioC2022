@@ -18,7 +18,7 @@ Both tickets provide access to all conference sessions. We will have a variety o
 
 If you require scholarship assistance to attend the conference, please complete this form: https://forms.gle/YotNvDzx8qWjnQ3D7. 
 
-- Scholarships for in-person attendance will be reviewed and decided upon on May 16th. (Requesting scholarship assistance will not effect your lottery chances.)
+- Scholarships for in-person attendance will be reviewed and decided upon on May 16th. (Requesting scholarship assistance will not affect your lottery chances.)
 - Scholarships for virtual attendance will be given on a rolling basis, ending July 25th.
 
 
