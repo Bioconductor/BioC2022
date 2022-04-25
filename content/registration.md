@@ -16,6 +16,14 @@ Please apply via this form: https://bit.ly/Bioc22Tickets.
 
 Both tickets provide access to all conference sessions. We will have a variety of in-person and virtual speakers. Anyone who does not get an in-person ticket will be able to secure a virtual ticket. 
 
+#### Registration cost
+
+- $400 academic in person
+- $250 student in person
+- $50 academic virtual
+- $10 student virtual
+
+
 If you require scholarship assistance to attend the conference, please complete this form: https://forms.gle/YotNvDzx8qWjnQ3D7. 
 
 - Scholarships for in-person attendance will be reviewed and decided upon on May 16th. (Requesting scholarship assistance will not affect your lottery chances.)
