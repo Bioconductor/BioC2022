@@ -10,7 +10,7 @@ description = "Registration"
 
 Please apply via this form: https://forms.gle/MU4dXYSjkqa4uVJ59
 
-All ticket lottery applicants were emailed on Monday May 16th. You have until Saturday may 21st to register, or your ticket may be given to someone on the wait list. 
+All ticket lottery applicants were emailed on Monday May 16th. You have until Saturday May 21st to register, or your ticket may be given to someone on the wait list. 
 
 Both tickets provide access to all conference sessions. We will have a variety of in-person and virtual speakers. Anyone who does not get an in-person ticket will be able to secure a virtual ticket. 
 
