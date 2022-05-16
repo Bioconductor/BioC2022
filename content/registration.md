@@ -6,13 +6,11 @@ description = "Registration"
 ### Registration is now open for the BioC22 conference. You have two ticket options:
 
 1. Tickets for virtual attendance are now available on Eventbrite at https://bioc2022.eventbrite.com. 
-2. Tickets for in-person attendance of the conference in Seattle, Washington (USA) will be awarded via lottery. In-person tickets are currently limited due to COVID capacity limits at the venue. Additional tickets may thus become available if restrictions are lifted. These tickets would then be made available to registrants initially placed on the waitlist for in-person attendance.
+2. Tickets for in-person attendance of the conference in Seattle, Washington (USA) are currently limited due to COVID capacity limits at the venue. Additional tickets may thus become available if restrictions are lifted. These tickets would then be made available to registrants initially placed on the waitlist for in-person attendance
 
-Please apply via this form: https://bit.ly/Bioc22Tickets. 
+Please apply via this form: https://forms.gle/MU4dXYSjkqa4uVJ59
 
-- Names will be drawn and recipients notified on Monday May 16th at 9am EDT. 
-- Recipients who do not  complete their registration by May 20th may have their ticket given to someone on the wait list.
-- Those who do not receive a ticket will be placed on a waitlist and notified if more tickets become available. 
+All ticket lottery applicants were emailed on Monday May 16th. You have until Saturday may 21st to register, or your ticket may be given to someone on the wait list. 
 
 Both tickets provide access to all conference sessions. We will have a variety of in-person and virtual speakers. Anyone who does not get an in-person ticket will be able to secure a virtual ticket. 
 
