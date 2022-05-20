@@ -3,11 +3,9 @@ title = "Schedule"
 description = "Schedule"
 +++
 
-{{< schedule_dayone data="scheduleDayOne" date="Wednesday July 27">}}
-{{< schedule_dayone data="scheduleDayTwo" date="Thursday July 28">}}
-{{< schedule_dayone data="scheduleDayThree" date="Friday July 29">}}
-
-
+{{< scheduleDayOne >}}
+{{< scheduleDayTwo >}}
+{{< scheduleDayThree >}}
 
 <!--The conference will be held on the [Airmeet](https://www.airmeet.com/) virtual platform. Please, refer to the [Guide for participants](https://youtu.be/FvvZzcwlyv4) video and the [step-by-step guide how to use Airmeet](https://www.airmeet.com/hub/product-blog/step-by-step-guide-use-airmeet-for-attendees/). Please note there are no options to blur or hide your background in Airmeet; use third-party software if the blur is necessary.
 

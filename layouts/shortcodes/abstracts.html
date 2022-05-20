@@ -1,0 +1,17 @@
+{{ if .IsNamedParams }}
+{{ $papern := $.Params.paper }}
+
+{{ range $abstracts := index $.Site.Data.abstracts }}
+{{ if (eq $abstracts.paper $papern) }}
+    
+<h1> {{ .title }} </h1> <br>
+
+Author(s): {{ .authors }} <br>
+<br>
+Affiliation(s): {{ .affiliation }} <br>
+<br>
+{{ .abstract }}
+
+{{ end }}
+{{ end }}
+{{- end -}}
