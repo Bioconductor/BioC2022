@@ -10,6 +10,16 @@ Author(s): {{ .authors }} <br>
 <br>
 Affiliation(s): {{ .affiliation }} <br>
 <br>
+
+{{ if eq .twitter "" }}
+<br>
+{{ else }}
+Twitter: <a href="https://twitter.com/{{ .twitter }}"> @{{ .twitter }} </a>
+<br>
+{{ end }} 
+
+<br>
+
 {{ .abstract }}
 
 {{ end }}
