@@ -1,6 +1,6 @@
 ---
 title: "Using Comparative Genomics To Predict Protein Coevolution Networks With The DECIPHER And Synextend Packages"
-tags: ["Long wokrshop"]
+tags: ["Long workshop"]
 type: "blog"
 draft: false
 ---
