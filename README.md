@@ -94,8 +94,9 @@ which should be escaped.
 10. youtube - link to youtube video when available.
 11. day - valid options: day1, day2, day3.
 12. talks - this field is only for the short talk tracks. this should list
-13. time - the time in 24h format. Example: 1300 for 1 PM.
 the number of the papers under this track. This should be a yaml array.
 Example: ["paper10", "paper20"]
+14. time - the time in 24h format. Example: 1300 for 1 PM.
+
 
 
