@@ -1,13 +1,13 @@
-title: 'Using Tercen To Run Bioconductor Pipelines: Save Time And Share Data Easy With Collaborators.***'
-paper: 'paper66'
-session_type: 'Package demo'
-authors: 'Wes Wilson, et al.'
-presenting_author: 'Wes Wilson'
-affiliation: 'University of Pennsylvania'
-abstract: 'Are you one of few people in your lab writing pipelines and analyzing data? Do you have a backlog of raw data you haven't even started the QC on yet? do you want to easily share data with collaborators and team members but dont want to make 100 custom graphs with ggplot and then re-export your R markdown every 2 hours you get an email asking to change an axis? Then setting up your Bioconductor pipelines in Tercen might be a solution for you! In this super quick tercen demo I will show how you can import your workflows and R pipelines from R/docker/nextflow, allow grad students, post-docs, techs and PI to drop their raw data into your pipelines with no code from there for all your expertly designed pre-processing steps and QC. You can then analyze how you like, where you like, and then let collaborators know they can go back and see the results and change graphs and comparison conditions as they like without you having to build custom shiny apps or without giving them access to a HCP to run alignments, counts, or variant calling from the command line and accidently overwriting the raw data with the output data to never be seen or heard of again. '
-time: '16:30'
-github: ''
-twitter: 'WesleyWilson'
-youtube: 'https://www.youtube.com/user/bioconductor'
-day: 'day3'
-talks: ''
+title: "Using Tercen To Run Bioconductor Pipelines: Save Time And Share Data Easy With Collaborators.***"
+paper: "paper66"
+session_type: "Package demo"
+authors: "Wes Wilson, et al."
+presenting_author: "Wes Wilson"
+affiliation: "University of Pennsylvania"
+abstract: "Are you one of few people in your lab writing pipelines and analyzing data? Do you have a backlog of raw data you haven't even started the QC on yet? do you want to easily share data with collaborators and team members but dont want to make 100 custom graphs with ggplot and then re-export your R markdown every 2 hours you get an email asking to change an axis? Then setting up your Bioconductor pipelines in Tercen might be a solution for you! In this super quick tercen demo I will show how you can import your workflows and R pipelines from R/docker/nextflow, allow grad students, post-docs, techs and PI to drop their raw data into your pipelines with no code from there for all your expertly designed pre-processing steps and QC. You can then analyze how you like, where you like, and then let collaborators know they can go back and see the results and change graphs and comparison conditions as they like without you having to build custom shiny apps or without giving them access to a HCP to run alignments, counts, or variant calling from the command line and accidently overwriting the raw data with the output data to never be seen or heard of again. "
+time: "16:30"
+github: ""
+twitter: "WesleyWilson"
+youtube: ""
+day: "day3"
+talks: ""

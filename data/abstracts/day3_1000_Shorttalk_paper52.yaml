@@ -1,13 +1,13 @@
-title: 'Bioconductor Helm Chart: A Customizable Deployment Stack For Bioconductor Rstudio'
-paper: 'paper52'
-session_type: 'Short talk'
-authors: 'Alexandru Mahmoud et al.'
-presenting_author: 'Alexandru Mahmoud'
-affiliation: 'Harvard Medical School'
-abstract: 'The Bioconductor Helm chart abstracts the mechanics of deploying the Bioconductor version of RStudio into a single, highly-configurable package. The chart follows recommended standards and is packaged with a sensible default configuration, making Bioconductor RSstudio seamlessly deployable on any Kubernetes cluster, from a local machine, to commercial and academic clouds. Additionally, an easily-modifiable set of values can readily customize the installation to meet advanced users’ needs, offering extensibility at various levels, from changing storage provisioners, to tuning computational resources, or even running a new customized container image. Moreover, the chart is notably preconfigured to make use of prebuilt packages stored in the Bioconductor Bucket Network, making all Bioconductor packages and their CRAN dependencies readily available with no installation, as the chart can optionally preload them at startup. In this talk, we will present the different Kubernetes components that make up the Bioconductor Helm chart, highlight some commonly useful customizations, and present a few popular environments where the chart can be deployed. '
-time: '10:00'
-github: ''
-twitter: ''
-youtube: 'https://www.youtube.com/user/bioconductor'
-day: 'day3'
-talks: ''
+title: "Bioconductor Helm Chart: A Customizable Deployment Stack For Bioconductor Rstudio"
+paper: "paper52"
+session_type: "Short talk"
+authors: "Alexandru Mahmoud et al."
+presenting_author: "Alexandru Mahmoud"
+affiliation: "Harvard Medical School"
+abstract: "The Bioconductor Helm chart abstracts the mechanics of deploying the Bioconductor version of RStudio into a single, highly-configurable package. The chart follows recommended standards and is packaged with a sensible default configuration, making Bioconductor RSstudio seamlessly deployable on any Kubernetes cluster, from a local machine, to commercial and academic clouds. Additionally, an easily-modifiable set of values can readily customize the installation to meet advanced users’ needs, offering extensibility at various levels, from changing storage provisioners, to tuning computational resources, or even running a new customized container image. Moreover, the chart is notably preconfigured to make use of prebuilt packages stored in the Bioconductor Bucket Network, making all Bioconductor packages and their CRAN dependencies readily available with no installation, as the chart can optionally preload them at startup. In this talk, we will present the different Kubernetes components that make up the Bioconductor Helm chart, highlight some commonly useful customizations, and present a few popular environments where the chart can be deployed. "
+time: "10:00"
+github: ""
+twitter: ""
+youtube: ""
+day: "day3"
+talks: ""

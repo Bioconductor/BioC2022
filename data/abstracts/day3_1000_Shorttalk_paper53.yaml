@@ -1,13 +1,13 @@
-title: 'Sparsearray Objects: A New Container For Efficient In-Memory Representation Of Multidimensional Sparse Arrays'
-paper: 'paper53'
-session_type: 'Short talk'
-authors: 'Hervé Pagès, '
-presenting_author: 'Hervé Pagès,'
-affiliation: 'Fred Hutchinson Cancer Research Center'
-abstract: 'SparseArray objects use an innovative internal representation, called Sparse Vector Tree or SVT layout, to store the sparse data in memory. This layout allows compact representation as well as efficient access to the data. SparseArray objects support the traditional array API from base R, that is, the end user can operate on them via standard array operations like [ (subsetting), [<- (subassignment), dim(), dimnames(), t(), etc... Comparison, arithmetic, and other mathematical operations will be supported (some of them already are), including row and column summarization methods as defined in the matrixStats package from CRAN. In this short talk we will introduce the SVT layout and quickly discuss its differences with the more tradional CSC layout used by dgCMatrix objects from the Matrix package. We'll present some typical Bioconductor use cases where we believe that using SparseArray instead of dgCMatrix objects will offer significant benefits. Finally, we'll show a roadmap towards feature-completeness and where we stand on that roadmap. SparseArray objects are implemented in the upcoming SparseArray package: https://github.com/Bioconductor/S4Arrays  This is still work-in-progress (work on the package started in Fall 2021).   '
-time: '10:00'
-github: ''
-twitter: ''
-youtube: 'https://www.youtube.com/user/bioconductor'
-day: 'day3'
-talks: ''
+title: "Sparsearray Objects: A New Container For Efficient In-Memory Representation Of Multidimensional Sparse Arrays"
+paper: "paper53"
+session_type: "Short talk"
+authors: "Hervé Pagès, "
+presenting_author: "Hervé Pagès,"
+affiliation: "Fred Hutchinson Cancer Research Center"
+abstract: "SparseArray objects use an innovative internal representation, called Sparse Vector Tree or SVT layout, to store the sparse data in memory. This layout allows compact representation as well as efficient access to the data. SparseArray objects support the traditional array API from base R, that is, the end user can operate on them via standard array operations like [ (subsetting), [<- (subassignment), dim(), dimnames(), t(), etc... Comparison, arithmetic, and other mathematical operations will be supported (some of them already are), including row and column summarization methods as defined in the matrixStats package from CRAN. In this short talk we will introduce the SVT layout and quickly discuss its differences with the more tradional CSC layout used by dgCMatrix objects from the Matrix package. We'll present some typical Bioconductor use cases where we believe that using SparseArray instead of dgCMatrix objects will offer significant benefits. Finally, we'll show a roadmap towards feature-completeness and where we stand on that roadmap. SparseArray objects are implemented in the upcoming SparseArray package: https://github.com/Bioconductor/S4Arrays  This is still work-in-progress (work on the package started in Fall 2021).   "
+time: "10:00"
+github: ""
+twitter: ""
+youtube: ""
+day: "day3"
+talks: ""

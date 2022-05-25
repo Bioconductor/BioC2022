@@ -1,13 +1,13 @@
-title: 'Reusedata: An Open-Source, Open-Development Tool For Reusable And Reproducible Genomic Data Management'
-paper: 'paper61'
-session_type: 'Short talk'
-authors: 'Qian Liu'
-presenting_author: 'Qian Liu'
-affiliation: 'Roswell Park Comprehensive Cancer Center'
-abstract: 'The fast-growing volume and complexity of genomic data resources brings exceptional opportunities to the research community, yet poses significant challenges to properly manage the data around access, curation, annotation and storage. The individual data management can lead to substantial inefficiencies for repeated work and wasted computing resources, especially for those highly reused data curation steps such as the indexed reference genome. Here we introduce ReUseData, a workflow-based R package, to address these limitations by providing a systematic and simplified approach to standardize the genomic data management and promote data sharing and reuse. ReUseData uses an innovative recipe strategy for standardized data curation, annotation, and automatic data generation by leveraging workflow framework (Common Workflow Language) to provide stable runtime for command-line tools that are involved in data processing steps and creates data annotation/manifest files in standard formats (i.e., yaml and json) for easy interoperability with data analysis workflows. ReUseData creates and collects data recipes and generates cloud-ready curated data sets to promote the reusability, portability, scalability, and robustness of the genomic data ecosystem. '
-time: '10:00'
-github: ''
-twitter: 'QianLiu28878838'
-youtube: 'https://www.youtube.com/user/bioconductor'
-day: 'day3'
-talks: ''
+title: "Reusedata: An Open-Source, Open-Development Tool For Reusable And Reproducible Genomic Data Management"
+paper: "paper61"
+session_type: "Short talk"
+authors: "Qian Liu"
+presenting_author: "Qian Liu"
+affiliation: "Roswell Park Comprehensive Cancer Center"
+abstract: "The fast-growing volume and complexity of genomic data resources brings exceptional opportunities to the research community, yet poses significant challenges to properly manage the data around access, curation, annotation and storage. The individual data management can lead to substantial inefficiencies for repeated work and wasted computing resources, especially for those highly reused data curation steps such as the indexed reference genome. Here we introduce ReUseData, a workflow-based R package, to address these limitations by providing a systematic and simplified approach to standardize the genomic data management and promote data sharing and reuse. ReUseData uses an innovative recipe strategy for standardized data curation, annotation, and automatic data generation by leveraging workflow framework (Common Workflow Language) to provide stable runtime for command-line tools that are involved in data processing steps and creates data annotation/manifest files in standard formats (i.e., yaml and json) for easy interoperability with data analysis workflows. ReUseData creates and collects data recipes and generates cloud-ready curated data sets to promote the reusability, portability, scalability, and robustness of the genomic data ecosystem. "
+time: "10:00"
+github: ""
+twitter: "QianLiu28878838"
+youtube: ""
+day: "day3"
+talks: ""
