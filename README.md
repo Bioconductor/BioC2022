@@ -98,5 +98,13 @@ the number of the papers under this track. This should be a yaml array.
 Example: ["paper10", "paper20"]
 14. time - the time in 24h format. Example: 1300 for 1 PM.
 
+# Instructions on how to use Rmarkdown code to auto-generate yaml files
+
+* Make sure the input file is up to date. Link to the google excel is here: https://docs.google.com/spreadsheets/d/1tGtGffcbCRxQFjE3ej42IcWlN4FJCsuQeZvETt9g0oA/edit#gid=0
+* Once data is updated, export this file as TSV into your computer. Save this file in a folder called "input" 
+* NOTE - For the "time" column, set format to custom "hh:mm" (IMPORTANT)
+* Run the code
+* Output files generated in "yaml_output" folder name
+
 
 
