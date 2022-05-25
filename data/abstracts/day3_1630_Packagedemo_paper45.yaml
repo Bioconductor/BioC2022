@@ -1,13 +1,13 @@
-title: 'Genomicsupersignature: Interpretation Of RNA-Seq Experiments Through Robust, Efficient Comparison To Public Databases**'
-paper: 'paper45'
-session_type: 'Package demo'
-authors: 'Sehyun Oh, et al.'
-presenting_author: 'Sehyun Oh'
-affiliation: 'City University of New York'
-abstract: 'Millions of transcriptomic profiles have been deposited in public archives, yet remain underused for the interpretation of new experiments. We develop a novel method for interpreting new transcriptomic datasets through near-instantaneous comparison to public archives without high-performance computing requirements. Through the pre-computed index, users can identify public resources associated with their datasets such as literatures, gene sets, and MeSH terms. GenomicSuperSignature R/Bioconductor package links the user-provided input data to the pre-computed index, extracts interpretable annotations, and provides intuitive visualization options. In this Package demo, we will demonstrate the efficient and coherent database searching, robustness to batch effects and heterogeneous training data, and transfer learning capacity of GenomicSuperSignature. In summary, GenomicSuperSignature will aid in analyzing new gene expression data in the context of existing databases using minimal computing resources. '
-time: '16:30'
-github: ''
-twitter: 'drsehyun'
-youtube: 'https://www.youtube.com/user/bioconductor'
-day: 'day3'
-talks: ''
+title: "Genomicsupersignature: Interpretation Of RNA-Seq Experiments Through Robust, Efficient Comparison To Public Databases**"
+paper: "paper45"
+session_type: "Package demo"
+authors: "Sehyun Oh, et al."
+presenting_author: "Sehyun Oh"
+affiliation: "City University of New York"
+abstract: "Millions of transcriptomic profiles have been deposited in public archives, yet remain underused for the interpretation of new experiments. We develop a novel method for interpreting new transcriptomic datasets through near-instantaneous comparison to public archives without high-performance computing requirements. Through the pre-computed index, users can identify public resources associated with their datasets such as literatures, gene sets, and MeSH terms. GenomicSuperSignature R/Bioconductor package links the user-provided input data to the pre-computed index, extracts interpretable annotations, and provides intuitive visualization options. In this Package demo, we will demonstrate the efficient and coherent database searching, robustness to batch effects and heterogeneous training data, and transfer learning capacity of GenomicSuperSignature. In summary, GenomicSuperSignature will aid in analyzing new gene expression data in the context of existing databases using minimal computing resources. "
+time: "16:30"
+github: ""
+twitter: "drsehyun"
+youtube: "https://www.youtube.com/user/bioconductor"
+day: "day3"
+talks: ""

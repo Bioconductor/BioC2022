@@ -1,13 +1,13 @@
-title: 'Evolution Of The DECIPHER Package For Comparative Genomics'
-paper: 'paper32'
-session_type: 'Short talk'
-authors: 'Erik Scott Wright'
-presenting_author: 'Erik Scott Wright'
-affiliation: 'University of Pittsburgh'
-abstract: 'The DECIPHER package has been part of Bioconductor for about 11 years and has continued to grow in scope and utility. Although the R package was originally developed for designing oligonucleotide probes and primers, it now includes cutting-edge functionality for multiple sequence alignment, sequence classification, phylogenetics, and many other advanced applications of bioinformatics. Here, I will describe the evolution of DECIPHER's focus and abilities. I will touch on the inclusion of advanced features such as OpenMP for multi-threading and SIMD for even greater parallelism. I will discuss the intrinsic challenges and opportunities associated with developing, expanding, and supporting large-scale tools within the R environment. Also, I will describe how DECIPHER has performed on published benchmarks used to characterize different parts of its functionality. DECIPHER's journey from a new Bioconductor package to one with tens-of-thousands of users is ongoing, and this presentation will highlight the past, present, and future of this unique package. '
-time: '09:00'
-github: ''
-twitter: 'digitalwright'
-youtube: 'https://www.youtube.com/user/bioconductor'
-day: 'day2'
-talks: ''
+title: "Evolution Of The DECIPHER Package For Comparative Genomics"
+paper: "paper32"
+session_type: "Short talk"
+authors: "Erik Scott Wright"
+presenting_author: "Erik Scott Wright"
+affiliation: "University of Pittsburgh"
+abstract: "The DECIPHER package has been part of Bioconductor for about 11 years and has continued to grow in scope and utility. Although the R package was originally developed for designing oligonucleotide probes and primers, it now includes cutting-edge functionality for multiple sequence alignment, sequence classification, phylogenetics, and many other advanced applications of bioinformatics. Here, I will describe the evolution of DECIPHER's focus and abilities. I will touch on the inclusion of advanced features such as OpenMP for multi-threading and SIMD for even greater parallelism. I will discuss the intrinsic challenges and opportunities associated with developing, expanding, and supporting large-scale tools within the R environment. Also, I will describe how DECIPHER has performed on published benchmarks used to characterize different parts of its functionality. DECIPHER's journey from a new Bioconductor package to one with tens-of-thousands of users is ongoing, and this presentation will highlight the past, present, and future of this unique package. "
+time: "09:00"
+github: ""
+twitter: "digitalwright"
+youtube: "https://www.youtube.com/user/bioconductor"
+day: "day2"
+talks: ""

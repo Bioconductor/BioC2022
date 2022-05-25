@@ -1,13 +1,13 @@
-title: 'Data-Driven Identification Of Total RNA Expression Genes (Tregs) For Estimation Of RNA Abundance In Heterogeneous Cell Types'
-paper: 'paper39'
-session_type: 'Short talk'
-authors: 'Louise A. Huuki-Myers et al.'
-presenting_author: 'Louise A. Huuki-Myers'
-affiliation: 'Lieber Institute for Brain Development'
-abstract: 'Next generation sequencing technologies have facilitated data-driven identification of gene sets with different features including housekeeping genes, cell-type specific expression, or spatially variable expression. Here, we sought to identify a new class of control genes called Total RNA Expression Genes (TREGs), which correlate with total RNA abundance in heterogeneous cell types of different sizes and transcriptional activity. We provide a data-driven method to identify TREGs from single nucleus RNA-seq data (snRNA-seq), available as an R/Bioconductor package at http://research.libd.org/TREG/.  We applied our data-driven approach to find candidate TREGs in postmortem human brain snRNA-seq data from eight donors and five brain regions (Tran et al, Neuron, 2021). Genes were first filtered for low expression and high proportion of zero expression within ten broad cell types from each region. Passing genes were then evaluated for consistent expression within and across cell types. We validated top TREGs (AKT3, MALAT1, and ARID1B) in different cell types of dorsolateral prefrontal cortex (DLPFC) using smFISH with RNAscope technology (n= 98K cells from 3 tissue sections from an independent donor). High resolution images were acquired on a VectraPolaris slide scanner and analyzed with HALO (Indica Labs). We identified AKT3 as the best performing TREG in the human brain DLPFC. TREGs represent an important class of genes that could be used for a variety of assays and downstream analyses. As more snRNA-seq and spatial transcriptomics data comes online, the methodology we proposed could facilitate identification of TREGs in other brain regions, tissues, or species. RNAscope experiments with a TREG can generate paired cell size and total RNA activity estimates, which could be useful for improving RNA-seq deconvolution algorithms. '
-time: '09:00'
-github: ''
-twitter: 'lahuuki'
-youtube: 'https://www.youtube.com/user/bioconductor'
-day: 'day2'
-talks: ''
+title: "Data-Driven Identification Of Total RNA Expression Genes (Tregs) For Estimation Of RNA Abundance In Heterogeneous Cell Types"
+paper: "paper39"
+session_type: "Short talk"
+authors: "Louise A. Huuki-Myers et al."
+presenting_author: "Louise A. Huuki-Myers"
+affiliation: "Lieber Institute for Brain Development"
+abstract: "Next generation sequencing technologies have facilitated data-driven identification of gene sets with different features including housekeeping genes, cell-type specific expression, or spatially variable expression. Here, we sought to identify a new class of control genes called Total RNA Expression Genes (TREGs), which correlate with total RNA abundance in heterogeneous cell types of different sizes and transcriptional activity. We provide a data-driven method to identify TREGs from single nucleus RNA-seq data (snRNA-seq), available as an R/Bioconductor package at http://research.libd.org/TREG/.  We applied our data-driven approach to find candidate TREGs in postmortem human brain snRNA-seq data from eight donors and five brain regions (Tran et al, Neuron, 2021). Genes were first filtered for low expression and high proportion of zero expression within ten broad cell types from each region. Passing genes were then evaluated for consistent expression within and across cell types. We validated top TREGs (AKT3, MALAT1, and ARID1B) in different cell types of dorsolateral prefrontal cortex (DLPFC) using smFISH with RNAscope technology (n= 98K cells from 3 tissue sections from an independent donor). High resolution images were acquired on a VectraPolaris slide scanner and analyzed with HALO (Indica Labs). We identified AKT3 as the best performing TREG in the human brain DLPFC. TREGs represent an important class of genes that could be used for a variety of assays and downstream analyses. As more snRNA-seq and spatial transcriptomics data comes online, the methodology we proposed could facilitate identification of TREGs in other brain regions, tissues, or species. RNAscope experiments with a TREG can generate paired cell size and total RNA activity estimates, which could be useful for improving RNA-seq deconvolution algorithms. "
+time: "09:00"
+github: ""
+twitter: "lahuuki"
+youtube: "https://www.youtube.com/user/bioconductor"
+day: "day2"
+talks: ""

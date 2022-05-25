@@ -1,13 +1,13 @@
-title: 'Genomicdistributions: Fast, Easy, And Flexible Summary And Visualization Of Genomic Regions*'
-paper: 'paper21'
-session_type: 'Package demo'
-authors: 'Kristyna Kupkova, et al.'
-presenting_author: 'Kristyna Kupkova'
-affiliation: 'University of Virginia'
-abstract: 'The output of epigenetic studies are genomic region sets represented by genomic coordinates with a shared property, e.g. open chromatin regions identified by ATAC-seq in a given cell type. Unlike genes, whose function has been better defined, functional annotation of genomic region sets remains challenging. Here, we introduce the GenomicDistributions package with a rich set of functions designed to calculate and visualize properties of genomic region sets, such as the distribution of regions across different annotation classes, distances from genomic features, and many more. Our careful design of GenomicDistributions brings multiple advantages: 1) the breath of offered functions allows users to create a rich summary about genomic regions sets; 2) all of the functions can process one or multiple region sets at once; 3) calculation and plotting are conducted in two separate steps, which grants users the flexibility to plot results in their own way or simply use one of the predesigned plotting functions, the output of which are ggplot objects that can be further modified; 4) the code has been carefully optimized to provide the best-in-class performance even on very large datasets; 5) GenomicDistributions can be easily used on data from model or non-model organisms. Overall, GenomicDistributions provides a variety of functions for genomic region set analysis, offering both ease of use for beginners and flexibility for advanced users. '
-time: '15:30'
-github: ''
-twitter: 'KupkovaKristyna'
-youtube: 'https://www.youtube.com/user/bioconductor'
-day: 'day3'
-talks: ''
+title: "Genomicdistributions: Fast, Easy, And Flexible Summary And Visualization Of Genomic Regions*"
+paper: "paper21"
+session_type: "Package demo"
+authors: "Kristyna Kupkova, et al."
+presenting_author: "Kristyna Kupkova"
+affiliation: "University of Virginia"
+abstract: "The output of epigenetic studies are genomic region sets represented by genomic coordinates with a shared property, e.g. open chromatin regions identified by ATAC-seq in a given cell type. Unlike genes, whose function has been better defined, functional annotation of genomic region sets remains challenging. Here, we introduce the GenomicDistributions package with a rich set of functions designed to calculate and visualize properties of genomic region sets, such as the distribution of regions across different annotation classes, distances from genomic features, and many more. Our careful design of GenomicDistributions brings multiple advantages: 1) the breath of offered functions allows users to create a rich summary about genomic regions sets; 2) all of the functions can process one or multiple region sets at once; 3) calculation and plotting are conducted in two separate steps, which grants users the flexibility to plot results in their own way or simply use one of the predesigned plotting functions, the output of which are ggplot objects that can be further modified; 4) the code has been carefully optimized to provide the best-in-class performance even on very large datasets; 5) GenomicDistributions can be easily used on data from model or non-model organisms. Overall, GenomicDistributions provides a variety of functions for genomic region set analysis, offering both ease of use for beginners and flexibility for advanced users. "
+time: "15:30"
+github: ""
+twitter: "KupkovaKristyna"
+youtube: "https://www.youtube.com/user/bioconductor"
+day: "day3"
+talks: ""

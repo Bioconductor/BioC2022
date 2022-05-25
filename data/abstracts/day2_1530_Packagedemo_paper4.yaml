@@ -1,13 +1,13 @@
-title: 'Analyzing Cellular Heterogeneity Across Time And Across Biological Interventions***'
-paper: 'paper4'
-session_type: 'Package demo'
-authors: 'Xinge Wang, et al.'
-presenting_author: 'Xinge Wang'
-affiliation: 'University of Illinois at Chicago'
-abstract: 'Single-cell RNA sequencing (scRNA-seq) is a powerful experimental approach to study cellular heterogeneity. Single cell transcriptome analyses typically involve analyzing differences between biological conditions (disease vs. normal or distinct biological interventions) and across time points (longitudinal  transcriptome assessments). Workflows and computational toolkits are needed to address the following essential biological questions. (a) What are the cell-type specific differentially expressed genes between conditions? (b) Which are the cell-type specific differential transcription factor activities between conditions? (c) How can one identify dynamic differentially expressed genes across time points to characterize transcriptional dynamics and heterogeneity? In this workshop, we will introduce computational tools and analysis pipelines to help users to address these fundamental questions. We will start by introducing the Seurat R package to build standard pipelines which analyze and identify differentially expressed genes (DEGs) across conditions for individual cell subpopulations. We will introduce the open source R package BITFAM which uses a Bayesian inference model that integrates known ChIP-seq data to analyze new scRNA-seq data and infer transcription factor activities in individual cells. To analyze time-course or longitudinal experimental design study datasets, we will also introduce TrendCatcher, an open-source R package tailored for longitudinal bulk RNA-seq and scRNA-seq analysis. TrendCatcher and BITFAM were both developed in the laboratory of Dr. Rehman, who will be one of the Keynote Speakers at BioConductor 2022. Therefore, users who learn about the biomedical applications of these packages in the Keynote talk will learn how to apply these tools on standardized datasets provided by us to develop the necessary skill set. Users who complete this Workshop will then be able to apply these R packages to their own transcriptomic datasets and address fundamental biological questions about dynamic shifts in single-cell gene expression data. '
-time: '15:30'
-github: ''
-twitter: ''
-youtube: 'https://www.youtube.com/user/bioconductor'
-day: 'day2'
-talks: ''
+title: "Analyzing Cellular Heterogeneity Across Time And Across Biological Interventions***"
+paper: "paper4"
+session_type: "Package demo"
+authors: "Xinge Wang, et al."
+presenting_author: "Xinge Wang"
+affiliation: "University of Illinois at Chicago"
+abstract: "Single-cell RNA sequencing (scRNA-seq) is a powerful experimental approach to study cellular heterogeneity. Single cell transcriptome analyses typically involve analyzing differences between biological conditions (disease vs. normal or distinct biological interventions) and across time points (longitudinal  transcriptome assessments). Workflows and computational toolkits are needed to address the following essential biological questions. (a) What are the cell-type specific differentially expressed genes between conditions? (b) Which are the cell-type specific differential transcription factor activities between conditions? (c) How can one identify dynamic differentially expressed genes across time points to characterize transcriptional dynamics and heterogeneity? In this workshop, we will introduce computational tools and analysis pipelines to help users to address these fundamental questions. We will start by introducing the Seurat R package to build standard pipelines which analyze and identify differentially expressed genes (DEGs) across conditions for individual cell subpopulations. We will introduce the open source R package BITFAM which uses a Bayesian inference model that integrates known ChIP-seq data to analyze new scRNA-seq data and infer transcription factor activities in individual cells. To analyze time-course or longitudinal experimental design study datasets, we will also introduce TrendCatcher, an open-source R package tailored for longitudinal bulk RNA-seq and scRNA-seq analysis. TrendCatcher and BITFAM were both developed in the laboratory of Dr. Rehman, who will be one of the Keynote Speakers at BioConductor 2022. Therefore, users who learn about the biomedical applications of these packages in the Keynote talk will learn how to apply these tools on standardized datasets provided by us to develop the necessary skill set. Users who complete this Workshop will then be able to apply these R packages to their own transcriptomic datasets and address fundamental biological questions about dynamic shifts in single-cell gene expression data. "
+time: "15:30"
+github: ""
+twitter: ""
+youtube: "https://www.youtube.com/user/bioconductor"
+day: "day2"
+talks: ""
