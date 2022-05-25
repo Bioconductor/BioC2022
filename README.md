@@ -100,11 +100,12 @@ Example: ["paper10", "paper20"]
 
 # Instructions on how to use Rmarkdown code to auto-generate yaml files
 
-* Make sure the input file is up to date. Link to the google excel is here: https://docs.google.com/spreadsheets/d/1tGtGffcbCRxQFjE3ej42IcWlN4FJCsuQeZvETt9g0oA/edit#gid=0
+* Download the Rmarkdown filee - 01-create-yaml.Rmd in the base Github folder. It also includes a built PDF and HTML for easy viewing of the code. 
+* Make sure the input file is up to date. Link to the google sheet is here: https://docs.google.com/spreadsheets/d/1tGtGffcbCRxQFjE3ej42IcWlN4FJCsuQeZvETt9g0oA/edit#gid=0
 * Once data is updated, export this file as TSV into your computer. Save this file in a folder called "input" 
 * NOTE - For the "time" column, set format to custom "hh:mm" (IMPORTANT)
 * Run the code
-* Output files generated in "yaml_output" folder name
+* Output files are generated in the "yaml_output" folder 
 
 
 
