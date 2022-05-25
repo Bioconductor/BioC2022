@@ -1,0 +1,90 @@
+---
+title: "01-Create-yaml"
+output:
+  pdf_document: default
+  html_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(stringr)
+```
+
+## R Markdown - Create YAML files for Bioc2022 website
+
+### STEPS
+* Original input file is google excel https://docs.google.com/spreadsheets/d/1tGtGffcbCRxQFjE3ej42IcWlN4FJCsuQeZvETt9g0oA/edit#gid=0
+* Export this file as TSV. Save file in "input" folder. 
+* NOTE - For the "time" column, set format to custom "hh:mm" (IMPORTANT)
+* Import TSV file into R. Run the code
+* Output files generated in "yaml_output" folder name
+
+
+### import TSV file
+```{r}
+schedule <- read.csv(file = "input/Schedule_for_website.tsv", 
+                     sep = "\t", stringsAsFactors = F, 
+                     na.strings = "")
+
+#use "" instead of NAs
+scheduleBlank <- schedule #make copy
+scheduleBlank[is.na(scheduleBlank)] <- "" 
+```
+
+### loop through each entry in the input file. While loop for easy debugging
+```{r}
+iCount = 1
+while(iCount <= nrow(scheduleBlank)) {
+  #print(paste("iCount=", iCount))
+  
+  oneRow <- scheduleBlank[iCount, ] #one row
+  
+  ## get file name ready 
+  fileNameSpace <- paste(oneRow$day, "_",
+                         oneRow$time, "_",
+                         oneRow$session_type,"_",
+                         oneRow$paper,
+                         ".yaml", 
+                         sep = "" )
+  
+  #replace space and semi-colon by underscore
+  fileNameFinal <- str_replace_all(string = fileNameSpace, 
+                                   pattern =  c(" |:"), 
+                                   replacement =   '')
+  
+  #loop through each columns to create the yaml file 
+  iCount2 = 1
+  while(iCount2 <= ncol(oneRow)) {
+    #print(paste("iCount2=", iCount2))
+    
+    # write key value pair into file
+    oneValueName <- names(oneRow)[iCount2]
+    oneValue <- paste("\"",unlist(oneRow[iCount2]),"\"", sep ="")
+    
+    #write to file for the first time. Create new file
+    if (iCount2 == 1) {
+      #create file , no append
+      line <- paste(oneValueName, ": ", oneValue, sep = "")
+      write.table(line, col.names = FALSE, row.names = FALSE, 
+                  file = paste("yaml_output/", 
+                               fileNameFinal, sep=""), 
+                  append = FALSE, 
+                  quote = FALSE, )
+      
+    } else {
+      #append to existing file
+      line <- paste(oneValueName, ": ", oneValue, sep = "")
+      write.table(line, col.names = FALSE, row.names = FALSE,
+                  file = paste("yaml_output/", 
+                               fileNameFinal, sep=""), 
+                  append = TRUE, 
+                  quote = FALSE)
+    } # end of else
+    
+    iCount2 <- iCount2 + 1
+  } #end of inside  loop
+  
+  iCount <- iCount + 1
+} # end of outside loop
+
+```
