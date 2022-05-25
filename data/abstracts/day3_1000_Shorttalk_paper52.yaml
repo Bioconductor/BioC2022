@@ -8,6 +8,6 @@ abstract: "The Bioconductor Helm chart abstracts the mechanics of deploying the 
 time: "10:00"
 github: ""
 twitter: ""
-youtube: "https://www.youtube.com/user/bioconductor"
+youtube: ""
 day: "day3"
 talks: ""
