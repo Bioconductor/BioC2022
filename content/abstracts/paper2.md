@@ -1,5 +1,5 @@
 ---
-title: "A Framework For Multiplexed Image Processing And Spatial Analysis"
+title: "A Framework For Multiplexed Image Processing And Spatial Analysis***"
 tags: ["Package demo"]
 type: "blog"
 draft: false

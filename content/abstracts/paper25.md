@@ -1,5 +1,5 @@
 ---
-title: "Introduction To Bioconductor Annotation Resources"
+title: "Introduction To Bioconductor Annotation Resources*"
 tags: ["Workshop"]
 type: "blog"
 draft: false
