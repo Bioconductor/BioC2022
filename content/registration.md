@@ -27,6 +27,7 @@ If you require scholarship assistance to attend the conference, please complete 
 - Scholarships for in-person attendance will be reviewed and decided upon on May 16th. (Requesting scholarship assistance will not affect your lottery chances.)
 - Scholarships for virtual attendance will be given on a rolling basis, ending July 25th.
 
+#### Seattle's <a href="../Local_Hotels_Seattle.pdf" target="_blank">conference hotels</a>, <a href="../Local_Restaurants_Seattle.pdf" target="_blank">restaurants</a>, <a href="../Local_Activities.pdf" target="_blank">activities</a>, <a href="../Link_Light_Rail.pdf" target="_blank">transportation</a>
 
 <!--
 ## [Registration to the virtual Bioc2021 conference is now open!](https://www.airmeet.com/e/3124e6e0-8b3d-11eb-adfc-b1c12ad96800)
