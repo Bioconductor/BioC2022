@@ -1,5 +1,5 @@
 ---
-title: "Short talks, Systems Biology/Epigenetics Track"
+title: "Systems Biology/Epigenetics Track"
 tags: ["Short talks track"]
 type: "blog"
 draft: false

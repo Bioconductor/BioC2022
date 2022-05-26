@@ -1,5 +1,5 @@
 ---
-title: "Short talks, Metagenomics/Cancer Track"
+title: "Metagenomics/Cancer Track"
 tags: ["Short talks track"]
 type: "blog"
 draft: false
