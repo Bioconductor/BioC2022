@@ -3,10 +3,10 @@
 ## In bash:
 ## bash create_abstracts.sh
 
-for i in $(ls data/abstracts/*track.yaml | sed -e "s|data/abstracts/\(.\+track\)\.yaml$|\1|")
+for i in $(ls data/abstracts/*track*.yaml | sed -e "s|data/abstracts/\(.\+track[0-9]*\)\.yaml$|\1|")
 do
 
-    echo Creating abstract page for $i
+    echo Creating page for $i
 
     title=$(grep -e "title:" data/abstracts/$i.yaml | sed -e "s/title: \"\(.\+\)\"/\1/")
     session_type=$(grep -e "session_type:" data/abstracts/$i.yaml | sed -e "s/session_type: \"\(.\+\)\"/\1/")

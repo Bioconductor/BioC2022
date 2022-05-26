@@ -10,4 +10,4 @@ github: ""
 twitter: ""
 youtube: ""
 day: "day2"
-talks: "['paper15','paper39','paper5','paper32']"
+talks: ["paper15","paper39","paper5","paper32"]

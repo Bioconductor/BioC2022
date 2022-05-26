@@ -1,10 +1,10 @@
 ---
-title: "Metagenomics/Cancer Track"
+title: "MO, GEN Track"
 tags: ["Short talks track"]
 type: "blog"
 draft: false
 ---
 
-{{< tracks track="track4">}}
+{{< tracks track="track7">}}
 
 
