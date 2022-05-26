@@ -1,5 +1,5 @@
 ---
-title: "Epidemiology For Bioinformaticians"
+title: "Epidemiology For Bioinformaticians**"
 tags: ["Workshop"]
 type: "blog"
 draft: false

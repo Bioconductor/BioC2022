@@ -3,6 +3,11 @@ title = "Schedule"
 description = "Schedule"
 +++
 
++ [All short talks](../tags/short-talk/)
++ [All package demos](../tags/package-demo/)
++ [All workshops](../tags/workshop/)
+
+
 {{< schedule date="Wednesday, July 27, 2022" day="day1">}}
 {{< schedule date="Thursday, July 28, 2022" day="day2">}}
 {{< schedule date="Friday, July 29, 2022" day="day3">}}

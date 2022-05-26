@@ -13,7 +13,7 @@
 {{ if (eq $new.paper $talk) }}
 
 
-<h2> <a href="../{{ $talk }}" target="_blank"> {{ .title }} </a> </h2> <br><br>
+<h2> <a href="../{{ $talk }}" title={{ .abstract }} target="_blank"> {{ .title }} </a> </h2> <br><br>
 
 {{ end }}
 
