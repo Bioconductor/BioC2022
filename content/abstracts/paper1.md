@@ -1,5 +1,5 @@
 ---
-title: "Cola: A General Framework For Consensus Partitioning"
+title: "Cola: A General Framework For Consensus Partitioning**"
 tags: ["Package demo"]
 type: "blog"
 draft: false
