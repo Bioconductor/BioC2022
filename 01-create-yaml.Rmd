@@ -21,17 +21,48 @@ library(stringr)
 
 
 ### import TSV file
+
 ```{r}
-schedule <- read.csv(file = "input/Schedule_for_website.tsv", 
+
+if ("googlesheets4" %in% installed.packages()[,"Package"]) {
+    ## This option requires authentication with a google account
+    ## No need to download the google spreadsheet
+    ss <- 'https://docs.google.com/spreadsheets/d/1tGtGffcbCRxQFjE3ej42IcWlN4FJCsuQeZvETt9g0oA/edit#gid=0'
+    google_sheet <- googlesheets4::read_sheet(ss, sheet = 1)
+    scheduleBlank <- as.data.frame(google_sheet)
+    scheduleBlank[is.na(scheduleBlank)] <- "" 
+    
+} else {
+    
+    file_path <- "https://docs.google.com/spreadsheets/d/e/2PACX-1vRWk1K6nVoGeeYWmosAkTBuS4shpV7eZ7T7cQElCiV3ZOa9q5HdH1IR2h4Y7x1G-_wRpgoQ7TAeANp9/pub?gid=0&single=true&output=tsv"
+    schedule <- read.csv(file = file_path, 
                      sep = "\t", stringsAsFactors = F, 
                      na.strings = "")
+    #use "" instead of NAs
+    scheduleBlank <- schedule #make copy
+    scheduleBlank[is.na(scheduleBlank)] <- "" 
+}
 
-#use "" instead of NAs
-scheduleBlank <- schedule #make copy
-scheduleBlank[is.na(scheduleBlank)] <- "" 
+##  datetime to character
+scheduleBlank$time <- sub("^.+ (.+):00", "\\1", scheduleBlank$time)
+```
+
+## Create a directory to store ouptut
+
+```{r}
+output_dir <- "yaml_output/"
+if (!file.exists(output_dir)) {
+    dir.create(output_dir)
+} else {
+    ## Overwrite whatever output was generated before
+    unlink(output_dir, recursive=TRUE)
+    dir.create(output_dir)
+}
+    
 ```
 
 ### loop through each entry in the input file. While loop for easy debugging
+
 ```{r}
 iCount = 1
 while(iCount <= nrow(scheduleBlank)) {
@@ -52,21 +83,30 @@ while(iCount <= nrow(scheduleBlank)) {
                                    pattern =  c(" |:"), 
                                    replacement =   '')
   
+  ## There are some trailing underscores in names without the paper field
+  ## that should be removed
+  fileNameFinal <- sub("_.yaml$", ".yaml", fileNameFinal)
+  
   #loop through each columns to create the yaml file 
   iCount2 = 1
   while(iCount2 <= ncol(oneRow)) {
     #print(paste("iCount2=", iCount2))
     
     # write key value pair into file
+    
     oneValueName <- names(oneRow)[iCount2]
     oneValue <- paste("\"",unlist(oneRow[iCount2]),"\"", sep ="")
+    
+    if (any(grepl("paper", oneValue))) {
+        oneValue <- sub("^\"(.+)\"$", "\\1", oneValue)
+    }
     
     #write to file for the first time. Create new file
     if (iCount2 == 1) {
       #create file , no append
       line <- paste(oneValueName, ": ", oneValue, sep = "")
       write.table(line, col.names = FALSE, row.names = FALSE, 
-                  file = paste("yaml_output/", 
+                  file = paste(output_dir, 
                                fileNameFinal, sep=""), 
                   append = FALSE, 
                   quote = FALSE, )
@@ -75,7 +115,7 @@ while(iCount <= nrow(scheduleBlank)) {
       #append to existing file
       line <- paste(oneValueName, ": ", oneValue, sep = "")
       write.table(line, col.names = FALSE, row.names = FALSE,
-                  file = paste("yaml_output/", 
+                  file = paste(output_dir, 
                                fileNameFinal, sep=""), 
                   append = TRUE, 
                   quote = FALSE)

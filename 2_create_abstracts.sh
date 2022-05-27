@@ -3,6 +3,10 @@
 ## In bash:
 ## bash create_abstracts.sh
 
+
+## Delete previously created abstracts
+rm -rf content/abstracts/paper*.md
+
 for i in $(ls data/abstracts/*paper*yaml | sed -e "s|data/abstracts/\(.\+paper.\+\)\.yaml$|\1|")
 do
 

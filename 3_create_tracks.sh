@@ -3,6 +3,9 @@
 ## In bash:
 ## bash create_abstracts.sh
 
+## Delete previously created track files
+rm -rf content/abstracts/track*.md
+
 for i in $(ls data/abstracts/*track*.yaml | sed -e "s|data/abstracts/\(.\+track[0-9]*\)\.yaml$|\1|")
 do
 
