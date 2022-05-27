@@ -1,7 +1,7 @@
 title: "Using And Extending Biomedical Ontologies With Ontoproc**"
 paper: "paper36"
 session_type: "Package demo"
-authors: "Vincent James Carey, et al."
+authors: "Vincent James Carey, Sara Stankiewicz"
 presenting_author: "Vincent James Carey"
 affiliation: "Harvard Medical School"
 abstract: "An ontology, as studied in information science, is a formalization of a conceptual domain. A typical ontology consists of a controlled vocabulary including term definitions, and a system of relationships among terms and concepts to which these terms are associated. The ontoProc package addresses the ingestion, visualization, and manipulation of basic biomedical ontologies. This session will introduce the ontoProc package, the family of ontologies currently handled by ontoProc, and approaches to provisionally extending ontologies to deal with requirements frequently emerging at the frontiers of knowledge. "
