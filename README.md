@@ -97,6 +97,12 @@ which should be escaped.
 the number of the papers under this track. This should be a yaml array.
 Example: ["paper10", "paper20"]
 14. time - the time in 24h format. Example: 1300 for 1 PM.
+15. Run the scripts to create the abstracs and tracks files:
+```
+## in base driectory
+bash create_abstracts.sh
+bash create_tracks.sh
+```
 
 # Instructions on how to use Rmarkdown code to auto-generate yaml files
 
