@@ -18,8 +18,9 @@ Both tickets provide access to all conference sessions. We will have a variety o
 - $50 academic virtual
 - $10 student virtual
 
-+ If you require scholarship assistance to attend the conference virtually, please complete this form: https://forms.gle/YotNvDzx8qWjnQ3D7. Scholarships for virtual attendance will be assessed on a rolling basis. 
-+ We are no longer accepting requests for in-person scholarships. 
+If you require scholarship assistance to attend the conference virtually, please complete this form: https://forms.gle/YotNvDzx8qWjnQ3D7. Scholarships for virtual attendance will be assessed on a rolling basis. 
+
+We are no longer accepting requests for in-person scholarships. 
 
 #### Seattle's <a href="../Local_Hotels_Seattle.pdf" target="_blank">conference hotels</a>, <a href="../Local_Restaurants_Seattle.pdf" target="_blank">restaurants</a>, <a href="../Local_Activities.pdf" target="_blank">activities</a>, <a href="../Link_Light_Rail.pdf" target="_blank">transportation</a>
 
