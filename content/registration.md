@@ -7,7 +7,7 @@ description = "Registration"
 
 1. Tickets for virtual attendance are now available on Eventbrite at https://bioc2022.eventbrite.com.
 2. Tickets for in-person attendance of the conference in Seattle, Washington (USA) are currently limited due to COVID capacity limits at the venue. As of 5/31/22, we have 20 in-person tickets available. You can register at https://bioc2022.eventbrite.com.
-If tickets have sold out, please email conference@biocondcutor.org to be placed on a wait list. 
+If tickets have sold out, please email conference@bioconductor.org to be placed on a wait list. 
 
 Both tickets provide access to all conference sessions. We will have a variety of in-person and virtual speakers. Anyone who does not get an in-person ticket will be able to secure a virtual ticket.
 
