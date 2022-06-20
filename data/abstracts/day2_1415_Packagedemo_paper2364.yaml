@@ -1,5 +1,5 @@
 title: ["SpatialFeatureExperiment: An S4 Class Bringing Geospatial Tools To Spatial Omics***", "CITE-Viz: Reproducing The Flow Cytometry Workflow Using CITE-Seq Data***"]
-paper: ["paper64", "paper23"]
+paper: "paper2364"
 session_type: "Package demo"
 authors: ["Lambda Moses, Lior Pachter", "Garth Kong, Thai T Nguyen, Wesley K Rosales, Anjali D Panikar, John H W Cheney, Brittany M Curtiss, Sarah A Carratt, Theodore P Braun, Julia E Maxson"]
 presenting_author: ["Lambda Moses", "Garth Kong"]
