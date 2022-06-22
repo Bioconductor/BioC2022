@@ -35,5 +35,7 @@ description = "Submissions"
 ### Digital poster
 Digital posters can be submitted and displayed/presented as plain pdf posters, shiny apps, web pages, ... be creative! Posters will be presented in a dedicated remote session.
 
+Poster presenters are encouraged to submit their poster to the [Bioconductor BioC2022 conference gateway on F1000Research](https://f1000research.com/gateways/bioconductor/for-authors/publish-your-research). The submission is free, and published posters on F1000Research will receive a digital object identifier (DOI). For more details, please refer to the [Poster & Slides Guidelines](https://f1000research.com/gateways/bioconductor/for-authors/posters-and-slides-guidelines). Inclusion of the Bioconductor logo and/or #BioC2022 tag is encouraged. 
+
 ### Birds-of-a-feather session
 Free-format, organizer-lead interactive discussion session on a topic relevant to the Bioconductor community. 
