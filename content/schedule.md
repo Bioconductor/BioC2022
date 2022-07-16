@@ -5,7 +5,7 @@ description = "Schedule"
 
 + [All short talks](../tags/short-talk/)
 + [All package demos](../tags/package-demo/)
-+ [All workshops](../tags/workshop/)
++ [All workshops](../workshops/)
 
 
 {{< schedule date="Wednesday, July 27, 2022" day="day1">}}
