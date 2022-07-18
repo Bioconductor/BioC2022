@@ -22,6 +22,23 @@ Twitter: <a href="https://twitter.com/{{ .twitter }}" target="_blank"> @{{ .twit
 
 {{ .abstract }}
 
+{{ if not (eq .details "") }}
+<br>
+<br>
+<a style="font-weight:bold;font-size:24px" href="{{ .details }}" target="_blank" title={{ .details }}>Workshop details</a>
+{{ end }}
+
+{{ if eq .orchestra "yes" }}
+<br>
+<h3> Workshop on orchestra </h3>
+1. Go to <a href="http://app.orchestra.cancerdatasci.org" target= "_blank" />Orchestra</a>.<br>
+2. Log in.<br>
+3. Search for the workshop of interest.<br>
+4. Click "Launch" (may take a minute or two).<br>
+5. Follow instructions.<br>
+
+{{ end }}
+
 {{ end }}
 {{ end }}
 {{- end -}}

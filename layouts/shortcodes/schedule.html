@@ -166,6 +166,8 @@
 
             {{ if eq .paper "" }}
             <td width="60%">{{ .title }}</td>
+            {{ else if eq .paper "bioc" }}
+            <td width="60%"><a href="{{ .title_link }}" target="_blank" title={{ .title_link }} >{{ .title }}</a> </td>
             {{ else }}
             <td width="60%"><a href="../abstracts/{{ .paper }}" target="_blank" title={{ .abstract }} >{{ .title }}</a> </td>
             {{ end }}
