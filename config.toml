@@ -21,44 +21,56 @@ paginate = 50
     identifier="home"
     name = "Home"
     url  = "/"
-    weight = 1
+    weight = 10
 
 [[menu.main]]
     identifier="schedule"
     name = "Schedule"
     url  = "/schedule/"
-    weight = 2
+    weight = 20
+
+[[menu.main]]
+    identifier="Workshops"
+    name = "Workshops"
+    url  = "/workshops/"
+    weight = 21
+
+[[menu.main]]
+    identifier="Package demos"
+    name = "Package demos"
+    url  = "/package-demo/"
+    weight = 22
 
 [[menu.main]]
     identifier = "registration"
     name = "Registration"
     url  = "/registration/"
-    weight = 3
+    weight = 30
 
 [[menu.main]]
     identifier = "NEWS"
     name = "NEWS"
     url = "/news/"
-    weight = 4
+    weight = 40
 
 [[menu.main]]
     identifier = "sponsors"
     name = "Sponsors"
     url  = "/sponsors/"
-    weight = 5
+    weight = 50
 
 [[menu.main]]
     identifier = "about"
     name = "About"
     url  = "#"
-    weight = 6
+    weight = 60
 
 [[menu.main]]
     identifier="submissions"
     parent = "about"
     name = "Submissions"
     url  = "/submissions/"
-    weight = 3
+    weight = 30
 
 #[[menu.main]]
 #    identifier="workshops"
