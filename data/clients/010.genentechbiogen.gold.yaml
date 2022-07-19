@@ -1,4 +1,6 @@
-name: "Genentech-Biogen"
+name: "Genentech"
 image: "/img/clients/logo_genetech_biogen.png"
-url: "https://www.gene.com/, https://www.biogen.com/"
+url: "https://www.gene.com/"
 level: "gold"
+name2: "Biogen"
+url2: "https://www.biogen.com/"

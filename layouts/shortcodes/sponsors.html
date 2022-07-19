@@ -10,7 +10,7 @@
       <div class="panel panel-default">
         <div class="panel-body"> 
           <img src="{{.image}}" class="img-responsive center-block"> 
-          <a href = "{{.url}}"> {{.name}} </a>
+          <a href = "{{.url}}" target="_blank"> {{.name}} </a>
         </div>
       </div>
     </div>
@@ -31,7 +31,11 @@
       <div class="panel panel-default">
         <div class="panel-body"> 
           <img src="{{.image}}" class="img-responsive center-block"> 
-          <a href = "{{.url}}"> {{.name}} </a>
+          {{ if eq $sponsors.name2 "" }}
+          <a href="{{.url}}" target="_blank"> {{.name}} </a>
+          {{ else }}
+          <a href="{{.url}}" target="_blank"> {{.name}} </a> & <a href = "{{.url2}}" target="_blank"> {{.name2}} </a> 
+          {{ end }}
         </div>
       </div>
     </div>
@@ -53,7 +57,7 @@
       <div class="panel panel-default">
         <div class="panel-body"> 
           <img src="{{.image}}" class="img-responsive center-block"> 
-          <a href = "{{.url}}"> {{.name}} </a>
+          <a href = "{{.url}}" target="_blank"> {{.name}} </a> 
         </div>
       </div>
     </div>
@@ -74,7 +78,7 @@
       <div class="panel panel-default">
         <div class="panel-body"> 
           <img src="{{.image}}" class="img-responsive center-block"> 
-          <a href = "{{.url}}"> {{.name}} </a>
+          <a href = "{{.url}}" target="_blank"> {{.name}} </a>
         </div>
       </div>
     </div>
