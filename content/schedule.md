@@ -4,7 +4,7 @@ description = "Schedule"
 +++
 
 + [All short talks](../tags/short-talk/)
-+ [All package demos](../tags/package-demo/)
++ [All package demos](../package-demo/)
 + [All workshops](../workshops/)
 
 
