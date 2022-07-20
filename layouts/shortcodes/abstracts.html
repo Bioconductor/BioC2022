@@ -8,8 +8,12 @@
 
 Author(s): {{ .authors }} <br>
 <br>
+
+{{ if not (eq .affiliation "") }}
+
 Affiliation(s): {{ .affiliation }} <br>
 <br>
+{{ end }}
 
 {{ if eq .twitter "" }}
 <br>
@@ -22,7 +26,7 @@ Twitter: <a href="https://twitter.com/{{ .twitter }}" target="_blank"> @{{ .twit
 
 {{ .abstract }}
 
-{{ if not (eq .session_type "Short talk") }}
+{{ if eq .session_type "Workshop" }}
 {{ if not (eq .details "") }}
 <br>
 <br>
