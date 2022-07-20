@@ -8,8 +8,12 @@
 
 Author(s): {{ .authors }} <br>
 <br>
+
+{{ if not (eq .affiliation "") }}
+
 Affiliation(s): {{ .affiliation }} <br>
 <br>
+{{ end }}
 
 {{ if eq .twitter "" }}
 <br>
@@ -22,7 +26,7 @@ Twitter: <a href="https://twitter.com/{{ .twitter }}" target="_blank"> @{{ .twit
 
 {{ .abstract }}
 
-{{ if not (eq .session_type "Short talk") }}
+{{ if eq .session_type "Workshop" | eq .session_type "Package demo" }}
 {{ if not (eq .details "") }}
 <br>
 <br>
@@ -33,7 +37,7 @@ Twitter: <a href="https://twitter.com/{{ .twitter }}" target="_blank"> @{{ .twit
 
 {{ if eq .orchestra "yes" }}
 <br>
-<h3> Workshop on orchestra </h3>
+<h3> Orchestra </h3>
 1. Go to <a href="http://app.orchestra.cancerdatasci.org" target= "_blank" />Orchestra</a>.<br>
 2. Log in.<br>
 3. Search for the workshop of interest.<br>
