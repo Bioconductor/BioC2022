@@ -42,18 +42,6 @@ paginate = 50
     weight = 22
 
 [[menu.main]]
-    identifier = "registration"
-    name = "Registration"
-    url  = "/registration/"
-    weight = 30
-
-[[menu.main]]
-    identifier = "NEWS"
-    name = "NEWS"
-    url = "/news/"
-    weight = 40
-
-[[menu.main]]
     identifier = "sponsors"
     name = "Sponsors"
     url  = "/sponsors/"
