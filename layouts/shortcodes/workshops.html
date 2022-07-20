@@ -27,24 +27,24 @@ Recommended for starting with Bioconductor.
             {{ if eq .level $level }}
 
             <tr>
-                <td width="70%"><a href="../abstracts/{{ .paper }}" target="_blank" title={{ .abstract }} >{{ .title }}</a> </td>
+                <td width="85%"><a href="../abstracts/{{ .paper }}" target="_blank" title={{ .abstract }} >{{ .title }}</a> </td>
 
                 {{ if eq .details "" }}
-                <td width="10%">{{ .details }}</td>
+                <td width="5%">{{ .details }}</td>
                 {{ else }}
-                <td style="text-align:center" width="10%"><a href="{{ .details }}" target="_blank"><i class="fas fa-external-link-alt fa-2x" ></i></a></td>
+                <td style="text-align:center" width="5%"><a href="{{ .details }}" target="_blank"><i class="fas fa-external-link-alt" ></i></a></td>
                 {{ end }}
 
                 {{ if eq .github "" }}
-                <td width="10%">{{ .github }}</td>
+                <td width="5%">{{ .github }}</td>
                 {{ else }}
-                <td style="text-align:center" width="10%"><a href="{{ .github }}" target="_blank"><i class="fab fa-github fa-2x" ></i></a></td>
+                <td style="text-align:center" width="5%"><a href="{{ .github }}" target="_blank"><i class="fab fa-github" ></i></a></td>
                 {{ end }}
 
                 {{ if eq .youtube "" }}
-                <td width="10%">{{ .youtube }}</td>
+                <td width="5%">{{ .youtube }}</td>
                 {{ else }}
-                <td style="text-align:center" width="10%"><a href="{{ .youtube }}" target="_blank"><i class="fab fa-youtube fa-2x" ></i></a></td>
+                <td style="text-align:center" width="5%"><a href="{{ .youtube }}" target="_blank"><i class="fab fa-youtube" ></i></a></td>
                 {{ end }}
             </tr>
             {{ end }}

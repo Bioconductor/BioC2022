@@ -54,11 +54,34 @@
             <td width="5%">{{ .time }}</td>
             <td width="12%">{{ .session_type }}</td>
 
-            {{ if eq .twitter "" }}
-            <td width="18%">{{ .presenting_author }}</td>
-            {{ else }}
-            <td width="18%"><a href="https://twitter.com/{{ .twitter }}" target="_blank">{{ .presenting_author }}</a></td>
-            {{ end }}
+
+
+            <td width="18%">
+                {{ if eq .twitter "" }}
+                {{ .presenting_author }}<br>
+                {{ else }}
+                <a href="https://twitter.com/{{ .twitter }}" target="_blank">{{ .presenting_author }}</a><br>
+                {{ end }}
+
+                {{ if eq .twitter2 "" }}
+                {{ .presenting_author2 }}<br>
+                {{ else }}
+                <a href="https://twitter.com/{{ .twitter2 }}" target="_blank">{{ .presenting_author2 }}</a><br>
+                {{ end }}
+
+                {{ if eq .twitter3 "" }}
+                {{ .presenting_author3 }}<br>
+                {{ else }}
+                <a href="https://twitter.com/{{ .twitter3 }}" target="_blank">{{ .presenting_author3 }}</a><br>
+                {{ end }}
+
+                {{ if eq .twitter4 "" }}
+                {{ .presenting_author4 }}<br>
+                {{ else }}
+                <a href="https://twitter.com/{{ .twitter4 }}" target="_blank">{{ .presenting_author4 }}</a><br>
+                {{ end }}
+            </td>
+
 
             {{ if eq .paper "" }}
             <td width="60%">{{ .title }}</td>
