@@ -32,7 +32,6 @@ Twitter: <a href="https://twitter.com/{{ .twitter }}" target="_blank"> @{{ .twit
 <br>
 <a style="font-weight:bold;font-size:24px" href="{{ .details }}" target="_blank" title={{ .details }}>Workshop details</a>
 {{ end }}
-
 {{ if not (eq .github "") }}
 <br>
 <br>
@@ -52,9 +51,7 @@ Twitter: <a href="https://twitter.com/{{ .twitter }}" target="_blank"> @{{ .twit
 <br>
 <a style="font-weight:bold;font-size:24px" href="{{ .github }}" target="_blank" title={{ .github }}>Source code</a>
 {{ end }}
-
 {{ end }}
-
 
 {{ if eq .orchestra "yes" }}
 <br>
@@ -64,9 +61,11 @@ Twitter: <a href="https://twitter.com/{{ .twitter }}" target="_blank"> @{{ .twit
 3. Search for the workshop of interest.<br>
 4. Click "Launch" (may take a minute or two).<br>
 5. Follow instructions.<br>
-
 {{ end }}
 
+
+
 {{ end }}
 {{ end }}
+
 {{- end -}}

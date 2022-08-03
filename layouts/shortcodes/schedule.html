@@ -35,9 +35,11 @@
             {{ end }}
 
             {{ if eq .paper "" }}
+            {{ if eq .details "" }}
             <td width="60%">{{ .title }}</td>
             {{ else }}
-            <td width="60%"><a href="../abstracts/{{ .paper }}" target="_blank" title={{ .abstract }} >{{ .title }}</a> </td>
+            <td width="60%"><a href="{{ .details }}" target="_blank" title="Slides for '{{ .title }}'">{{ .title }}</a> </td>
+            {{ end }}
             {{ end }}
 
             {{ if eq .youtube "" }}
