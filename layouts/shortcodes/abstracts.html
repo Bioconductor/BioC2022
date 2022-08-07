@@ -26,6 +26,19 @@ Twitter: <a href="https://twitter.com/{{ .twitter }}" target="_blank"> @{{ .twit
 
 {{ .abstract }}
 
+{{ if eq .session_type "Short talk" }}
+{{ if not (eq .details "") }}
+<br>
+<br>
+<a style="font-weight:bold;font-size:24px" href="{{ .details }}" target="_blank" title={{ .details }}>Short talk details</a>
+{{ end }}
+{{ if not (eq .github "") }}
+<br>
+<br>
+<a style="font-weight:bold;font-size:24px" href="{{ .github }}" target="_blank" title={{ .github }}>Source code</a>
+{{ end }}
+{{ end }}
+
 {{ if eq .session_type "Workshop" }}
 {{ if not (eq .details "") }}
 <br>
