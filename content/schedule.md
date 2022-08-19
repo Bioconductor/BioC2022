@@ -5,7 +5,7 @@ description = "Schedule"
 
 + [All short talks](../tags/short-talk/)
 + [All workshops and package demos](../workshops/)
-
++ Conference videos will appear on the [R Consortium](https://www.youtube.com/c/RConsortium) YouTube channel - subscribe!
 
 {{< schedule date="Wednesday, July 27, 2022" day="day1">}}
 {{< schedule date="Thursday, July 28, 2022" day="day2">}}
