@@ -45,7 +45,7 @@
             {{ if eq .youtube "" }}
             <td width="5%">{{ .youtube }}</td>
             {{ else }}
-            <td width="5%"><a href="{{ .youtube }}" target="_blank"><i class="fab fa-youtube" ></i></a></td>
+            <td width="5%"><a href="{{ .youtube }}" target="_blank"><i class="fab fa-youtube fa-xl" ></i></a></td>
             {{ end }}
 
         </tr>
@@ -55,8 +55,6 @@
         <tr class="success">
             <td width="5%">{{ .time }}</td>
             <td width="12%">{{ .session_type }}</td>
-
-
 
             <td width="18%">
                 {{ if eq .twitter "" }}
@@ -84,18 +82,37 @@
                 {{ end }}
             </td>
 
-
             {{ if eq .paper "" }}
             <td width="60%">{{ .title }}</td>
             {{ else }}
             <td width="60%"><a href="../abstracts/{{ .paper }}" target="_blank" title={{ .abstract }} >{{ .title }}</a> </td>
             {{ end }}
 
+            <td width="5%">
             {{ if eq .youtube "" }}
-            <td width="5%">{{ .youtube }}</td>
+            {{ .youtube }}<br>
             {{ else }}
-            <td width="5%"><a href="{{ .youtube }}" target="_blank"><i class="fab fa-youtube" ></i></a></td>
+            <a href="{{ .youtube }}" target="_blank"><i class="fab fa-youtube" ></i></a><br>
             {{ end }}
+            
+            {{ if eq .youtube2 "" }}
+            {{ .youtube2 }}<br>
+            {{ else }}
+            <a href="{{ .youtube2 }}" target="_blank"><i class="fab fa-youtube" ></i></a><br>
+            {{ end }}
+
+            {{ if eq .youtube3 "" }}
+            {{ .youtube3 }}<br>
+            {{ else }}
+            <a href="{{ .youtube3 }}" target="_blank"><i class="fab fa-youtube" ></i></a><br>
+            {{ end }}
+
+            {{ if eq .youtube4 "" }}
+            {{ .youtube4 }}<br>
+            {{ else }}
+            <a href="{{ .youtube4 }}" target="_blank"><i class="fab fa-youtube" ></i></a><br>
+            {{ end }}
+            </td>
 
         </tr>
 
