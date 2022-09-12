@@ -76,6 +76,15 @@ Twitter: <a href="https://twitter.com/{{ .twitter }}" target="_blank"> @{{ .twit
 5. Follow instructions.<br>
 {{ end }}
 
+<br>
+
+{{ if eq .youtube "" }}
+<br>
+{{ else }}
+<h3> On YouTube: </h3>
+<a href="{{ .youtube }}" target="_blank"><i class="fab fa-youtube fa-3x" ></i></a>
+<br>
+{{ end }} 
 
 
 {{ end }}
