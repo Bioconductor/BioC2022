@@ -8,7 +8,7 @@ abstract: "Bioconductor produces docker images that are widely used because they
 time: "15:30"
 github: "https://github.com/nturaga/bioc-k8s-cluster.git"
 twitter: "niteshturaga "
-youtube: ""
+youtube: "https://youtu.be/h5oT_qfvtds"
 day: "day1"
 talks: ""
 level: "Advanced"
